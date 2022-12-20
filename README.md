@@ -26,6 +26,8 @@
 
 ### Simple and automatic way
 
+The following original website is not working anymore. You will be better to use latest rclone from your own computer to get refresh-token. You can check this post for more: https://blog.51sec.org/2020/03/goindex-using-cloudflare-workers-to.html
+
 Go [https://gdindex-code-builder.maple3142.net/](https://gdindex-code-builder.maple3142.net/), and follow its instructions.
 
 ### Manual way
