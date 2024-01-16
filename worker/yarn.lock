@@ -904,13 +904,13 @@
   resolved "https://registry.yarnpkg.com/@sagi.io/globalthis/-/globalthis-0.0.2.tgz#2777ab71721ecaab1b0dd8aa75abbe0f3ae1ba58"
   integrity sha512-sazB1BcX8IK5UxDgEEd0J1bPB0rwH0k725nYva6ofBhvNX8lMytuRf3mlkTkytNHKTi4EGxBOY+YAD3PkeEtlA==
 
-"@sagi.io/workers-jwt@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@sagi.io/workers-jwt/-/workers-jwt-0.0.10.tgz#49d68180b8aac37b2a297b32a8d1120a8e9b3cf0"
-  integrity sha512-Ur5rM5/Cpr7riVkkOx0MdzzKD2Kbzd5dXgt9Hfm+OMxKtoSGgXWmoFBWLgUY3vb/jVnhuGPsw9fw64xVSZfvoA==
+"@sagi.io/workers-jwt@^0.0.23":
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/@sagi.io/workers-jwt/-/workers-jwt-0.0.23.tgz#172857aa0edb04940504b3bcfa27fc4c03630896"
+  integrity sha512-aQIACRw98vGkjzdfms6zZxCXShjbSi99a9tzPY0LrVmkCulxrTEIT0qAgHp3qpgD/rCDlSVc7uH011GRKypTGQ==
   dependencies:
     "@sagi.io/globalthis" "^0.0.2"
-    base64url "^3.0.1"
+    js-base64 "^3.6.0"
 
 "@types/estree@*":
   version "0.0.45"
@@ -1038,11 +1038,6 @@ base64-js@^1.3.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
-
-base64url@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/base64url/-/base64url-3.0.1.tgz#6399d572e2bc3f90a9a8b22d5dbb0a32d33f788d"
-  integrity sha512-ir1UPr3dkwexU7FdV8qBBbNDRUhMmIekYMFZfi+C/sLNnRESKPl23nB9b2pltqfOQNnGzsDdId90AEtG5tCx4A==
 
 big.js@^5.2.2:
   version "5.2.2"
@@ -2149,6 +2144,11 @@ jest-worker@^24.9.0:
   dependencies:
     merge-stream "^2.0.0"
     supports-color "^6.1.0"
+
+js-base64@^3.6.0:
+  version "3.7.5"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.7.5.tgz#21e24cf6b886f76d6f5f165bfcd69cc55b9e3fca"
+  integrity sha512-3MEt5DTINKqfScXKfJFrRbxkrnk2AxPWGBL/ycjz4dK8iqiSJ06UxD8jh8xuh6p10TX4t2+7FsBYVxxQbMg+qA==
 
 js-tokens@^4.0.0:
   version "4.0.0"
