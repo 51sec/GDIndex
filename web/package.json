@@ -15,7 +15,7 @@
 		"pretty-bytes": "^5.4.1",
 		"viewerjs": "^1.8.0",
 		"vue": "^2.6.12",
-		"vue-i18n": "^8.22.1",
+		"vue-i18n": "^8.28.2",
 		"vue-router": "^3.4.9",
 		"vuetify": "^2.3.17",
 		"xfetch-js": "^0.5.0"
